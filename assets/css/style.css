@@ -185,6 +185,9 @@ body {
       -webkit-transform: translateY(0%);
     }
   }
+  .iframe-container {
+    display: flex;
+  }
   iframe {
     /* border: 1px solid black; */
     box-shadow: 1px 1px 1px 1px gray;
@@ -206,5 +209,8 @@ body {
   iframe {
     width: 325px;
     height: 225px;
+  }
+  .iframe-container {
+    justify-content: center;
   }
   }
