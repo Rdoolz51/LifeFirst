@@ -185,10 +185,26 @@ body {
       -webkit-transform: translateY(0%);
     }
   }
-
+  iframe {
+    /* border: 1px solid black; */
+    box-shadow: 1px 1px 1px 1px gray;
+    width:800px; 
+    height:600px;
+  }
   @media screen and (max-width: 768px) {
     .col-sm-4 {
       text-align: center;
       margin: 25px 0;
     }
+    iframe {
+      width: 350px;
+      height: 250px;
+
+    }
+  }
+  @media screen and (max-width: 450px) {
+  iframe {
+    width: 325px;
+    height: 225px;
+  }
   }
