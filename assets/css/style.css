@@ -54,7 +54,12 @@ body {
     color: #fff !important;
   }
 .jumbotron {
-    background-color: var(--lighter-color);
+    /* background-color: var(--lighter-color); */
+    background-image: url('../images/lifelinebanner.png');
+    background-size: contain;
+    background-position: center;
+    background-color: rgb(72, 68, 68);
+    background-repeat: repeat-x;
     color: #ffffff;
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
